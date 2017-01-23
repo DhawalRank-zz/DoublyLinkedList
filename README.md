@@ -1,5 +1,7 @@
 # DoublyLinkedList in java
 
+
+
 ### Implemented Methods
   1. append()
   2. prepend()
@@ -10,6 +12,5 @@
   7. toString()
   8. getSortedList()
   9. getSize()
-  
-  10.toArray()
+  10. toArray()
 
