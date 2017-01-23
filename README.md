@@ -1,6 +1,6 @@
 # DoublyLinkedList in java
 
-# Implemented Methods
+### Implemented Methods
   1. append()
   2. prepend()
   3. removeFirst()
