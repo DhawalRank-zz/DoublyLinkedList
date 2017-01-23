@@ -141,6 +141,19 @@ public class LinkedList {
 		}
 		return temp;
 	}
+	
+	public Integer[] toArray(){
+		Node n = header;
+		int i = 0;
+		Integer a[] = new Integer[size];
+		while(i != size){
+			a[i] = n.data;
+			i++;
+			n = n.next;
+		}
+		return a;
+	}
+	
 	public int getSize(){
 		return size;
 	}

@@ -23,11 +23,15 @@ public class MainDoublyLinkedList {
 		sortedList = ll.getSortedList();
 		System.out.println("Sorted Linked List:"+sortedList.toString());
 		System.out.println(sortedList.deleteAt(1));
-		System.out.println("Sorted Linked List:"+sortedList.toString());
+		System.out.println("New Linked List:"+sortedList.toString());
 		System.out.println(sortedList.deleteAt(7));
-		System.out.println("Sorted Linked List:"+sortedList.toString());
+		System.out.println("New Linked List:"+sortedList.toString());
 		System.out.println(sortedList.deleteAt(3));
-		System.out.println("Sorted Linked List:"+sortedList.toString());
+		System.out.println("New Linked List:"+sortedList.toString());
+		Integer a[] = new Integer[sortedList.getSize()];
+		a = sortedList.toArray();
+		System.out.println(a[4]);
+		
 	}
 
 }
